@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flappy Bird</title>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = 0, minimal-ui" />
+        <style type = "text/css">
+            body{
+                padding: 0px;
+                margin: 0px;
+            }
+            canvas{
+                display:block;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+        <style media='screen' type='text/css'>
+            @font-face {
+              font-family: ArialB;
+              src: url('assets/arial-black.ttf');
+              font-weight:400;
+              font-weight:normal;
+            }
+        </style>
+        <script type="text/javascript" src="phaser.min.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="util/alignGrid.js"></script>
+        <script type="text/javascript" src="util/align.js"></script>
+        <script type="text/javascript" src="util/UIBlock.js"></script>
+
+        <div style="font-family:ArialB; position:absolute; left:-1000px; visibility:hidden;">.</div>
+    </head>
+    <body>
+    </body>
+</html>
